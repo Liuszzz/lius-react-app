@@ -1,2 +1,0 @@
-# lius-react-app
-react
