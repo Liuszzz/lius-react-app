@@ -1,8 +1,8 @@
-import * as actionType from "../actionTypes/index"
+import * as actionTypes from "../actionTypes"
 
-export function changeUserinfo(info) {
+export function changeUserinfo(data) {
     return {
-        type: actionType.CHANGE_USERINFO,
-        info
+        type: actionTypes.CHANGE_USERINFO,
+        data
     }
 }
